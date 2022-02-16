@@ -1,0 +1,44 @@
+/* Main Section: Diaxeiristis */
+.fwh-slide{
+    height: 50vh;
+}
+
+.main-section{
+    color: var(--black);
+    margin-left: 50px;
+    margin-top: 50px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.main-section h1{
+    margin-left: -20px;
+    font-size: 2.5em;
+}
+
+.main-section b{
+    margin-left: -20px;
+}
+
+.main-section b.a{
+    color: var(--darkgray);
+}
+
+.main-section ul.a{
+    list-style: decimal;
+}
+
+.main-section ul.b{
+    list-style: circle;
+}
+
+.main-section ul.b li{
+    margin-left: 25px;
+}
+
+@media screen and (max-width: 768px) {
+    .main-section {
+        flex-basis: 100%;
+    }
+}

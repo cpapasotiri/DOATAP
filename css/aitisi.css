@@ -1,0 +1,88 @@
+/* Main Section: Aitisi(3 steps) */
+.fwh-slide{
+    height: 50vh;
+}
+
+.fwh-slide--steps{
+    height: 300vh;
+}
+
+.main-section{
+    color: var(--black);
+    margin-left: 50px;
+    margin-top: 50px;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.main-section h1{
+    margin-left: -20px;
+    font-size: 2.5em;
+}
+
+.main-section .h4{
+    margin-left: 15px;
+}
+ 
+.step1 .form-group{
+    width: 30%;
+    margin-left: 0;
+    margin-top: 1px;
+}
+
+.step2 .form-group{
+    width: 30%;
+    margin-left: 0;
+    margin-top: 1px;
+}
+
+.step2 .form-group select{
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    border: 1px solid #ccc;
+    margin: 8px 0;
+}
+
+.step3 .form-group{
+    width: 45%;
+    margin-left: 0;
+    margin-top: 1px;
+}
+
+
+
+.btn-primary{
+    color: var(--black);
+    background-color: var(--lightblue);
+    border-color: var(--lightblue);
+}
+
+.btn-primary:hover{
+    background-color: var(--lightblue);
+    border-color: var(--white);
+}
+
+@media screen and (max-width: 768px) {
+    .main-section {
+        flex-basis: 100%;
+    }
+
+    .step1 .form-group{
+        width: 70%;
+        margin-left: 0;
+        margin-top: 1px;
+    }
+    
+    .step2 .form-group{
+        width: 70%;
+        margin-left: 0;
+        margin-top: 1px;
+    }
+    
+    .step3 .form-group{
+        width: 90%;
+        margin-left: 0;
+        margin-top: 1px;
+    }
+}
